@@ -1,0 +1,16 @@
+{
+  "name": "trillio-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass Sass/main.scss  css/index.css -w"
+  },
+
+  "author": "Shubham",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
